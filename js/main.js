@@ -102,11 +102,22 @@ function initFaqAccordion() {
 function initActiveLinkHighlight() {
   const navLinks = document.querySelectorAll('.nav-link');
   const currentPath = window.location.pathname;
-  const pageName = currentPath.split('/').pop() || 'index.html';
+  
+  const normalize = (path) => {
+    if (!path) return '';
+    return path.replace(/^\/+|\/+$/g, '').replace(/\.html$/, '');
+  };
+
+  const normalizedCurrent = normalize(currentPath) || 'home';
 
   navLinks.forEach(link => {
-    const href = link.getAttribute('href');
-    if (href === pageName || (pageName === 'index.html' && href === './')) {
+    let href = link.getAttribute('href') || '';
+    if (href === '/' || href === './' || href === 'index.html') {
+      href = 'home';
+    }
+    
+    const normalizedHref = normalize(href);
+    if (normalizedCurrent === normalizedHref) {
       link.classList.add('text-orange', 'font-semibold');
       // Adding a subtle indicator underline for desktop
       link.classList.add('border-b-2', 'border-orange');

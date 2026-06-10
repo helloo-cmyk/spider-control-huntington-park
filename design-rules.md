@@ -93,17 +93,20 @@ Use the Navy Blue + White + Orange scheme.
 ### Rule 10: No Customer Reviews or Testimonials
 - **Strict Guideline**: Under no circumstances should there be any customer reviews, testimonials, ratings, star rating badges, or review profiles anywhere on the website.
 
+### Rule 11: No Badges or Pills
+- **Strict Guideline**: Do not use status badges, outline/solid pills, colored background labels, or status indicator tags in bordered/filled containers (such as "ACTIVE DISPATCH" or custom green/orange pill shapes) anywhere on the website. Pulse indicators and text must be styled inline, using standard color and font choices, without being wrapped in badge backgrounds or block borders.
+
 ---
 
 ## 🔍 On-Page SEO Standards
 
-### Rule 11: Meta Tags (Per Page)
+### Rule 12: Meta Tags (Per Page)
 - Unique `<title>` tag with primary keyword + location + phone.
 - Unique `<meta name="description">` (150-160 characters) with a clear CTA.
 - Canonical URL tag on every page.
 - Open Graph tags (`og:title`, `og:description`, `og:type`, `og:url`) on every page.
 
-### Rule 12: Structured Data / Schema Markup
+### Rule 13: Structured Data / Schema Markup
 - `LocalBusiness` JSON-LD schema on every page.
 - `FAQPage` schema on pages containing FAQs.
 - `BreadcrumbList` schema on all inner pages.
@@ -112,13 +115,13 @@ Use the Navy Blue + White + Orange scheme.
 
 ## ⚡ Core Web Vitals Standards
 
-### Rule 13: Performance Requirements
+### Rule 14: Performance Requirements
 - Tailwind CSS v3 loaded via CDN.
 - No external JS libraries — vanilla JS only.
 - All scripts must use `defer` attribute.
 - Preconnect to Google Fonts.
 
-### Rule 14: Global Components (Header, Footer, Top Bar)
+### Rule 15: Global Components (Header, Footer, Top Bar)
 - **Shared Templates**: The Top Notification Bar, Header Navigation, and Footer markup must be stored in the shared script file [js/components.js](file:///d:/spider%20control%20huntington%20park/js/components.js) as ES6 backtick string properties of `window.globalComponents`.
 - **Synchronous Injection**: To ensure components render instantly on the very first screen paint with no layout shift or visual delay, they must be injected synchronously during page parsing. Each page contains a script tag directly following the footer placeholder:
   \`\`\`html
