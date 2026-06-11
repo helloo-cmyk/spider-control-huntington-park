@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+  <title>Terms of Service | Huntington Park Spider Control</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { navy: { DEFAULT: '#1A2E44', dark: '#0F1D2F' }, orange: { DEFAULT: '#E8600A', dark: '#C74F00' } }, fontFamily: { heading: ['Roboto Slab', 'serif'], body: ['Inter', 'sans-serif'] } } } }
+  </script>
+  <style> .font-heading { font-family: 'Roboto Slab', serif; } .font-body { font-family: 'Inter', sans-serif; } </style>
+  <script src="../js/components.js"></script>
+</head>
+<body class="font-body bg-white text-gray-700">
+  <div id="global-top-bar"></div>
+  <header id="global-header" class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm"></header>
+
+  <section class="bg-navy relative py-20 sm:py-28 overflow-hidden border-b-8 border-orange">
+    <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 24px 24px;"></div>
+    <div class="absolute top-0 right-0 w-1/2 h-full bg-navy-light transform skew-x-[15deg] origin-top-right -z-10"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight tracking-tight uppercase">TERMS OF SERVICE</h1>
+      <div class="h-2 w-24 bg-orange mt-6 mb-6"></div>
+      <p class="text-base sm:text-lg text-gray-300 max-w-3xl leading-relaxed font-medium">
+        Last updated: January 2026
+      </p>
+    </div>
+  </section>
+
+  <section class="py-20 sm:py-28 bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="border-4 border-navy p-8 sm:p-12 space-y-12 text-navy-dark text-base font-medium leading-relaxed bg-gray-50 relative rounded-sm">
+        
+        <div class="space-y-4 relative">
+          <div class="absolute -left-4 top-1 h-6 w-1 bg-orange hidden sm:block"></div>
+          <h2 class="font-heading text-2xl font-black text-navy uppercase tracking-tight">1. Acceptance of Terms</h2>
+          <p>By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement. In addition, when using these particular services, you shall be subject to any posted guidelines or rules applicable to such services.</p>
+        </div>
+
+        <div class="space-y-4 relative">
+          <div class="absolute -left-4 top-1 h-6 w-1 bg-orange hidden sm:block"></div>
+          <h2 class="font-heading text-2xl font-black text-navy uppercase tracking-tight">2. Description of Service</h2>
+          <p>Huntington Park Spider Control connects homeowners and commercial businesses with certified local pest management professionals. We act as a directory and lead generation service, not as the direct service providers in all cases.</p>
+        </div>
+
+        <div class="space-y-4 relative">
+          <div class="absolute -left-4 top-1 h-6 w-1 bg-orange hidden sm:block"></div>
+          <h2 class="font-heading text-2xl font-black text-navy uppercase tracking-tight">3. Disclaimers and Limitation of Liability</h2>
+          <p>The site and its components are offered for informational purposes only; this site shall not be responsible or liable for the accuracy, usefulness or availability of any information transmitted or made available via the site, and shall not be responsible or liable for any error or omissions in that information.</p>
+        </div>
+
+        <div class="space-y-4 relative">
+          <div class="absolute -left-4 top-1 h-6 w-1 bg-orange hidden sm:block"></div>
+          <h2 class="font-heading text-2xl font-black text-navy uppercase tracking-tight">4. Changes to Terms</h2>
+          <p>We reserve the right to modify these terms at any time. Your continued use of the site after such changes constitutes your acceptance of the new Terms of Service.</p>
+        </div>
+
+        <div class="pt-8 border-t-4 border-navy">
+          <p class="font-bold text-lg text-navy uppercase tracking-tight leading-relaxed">For any questions regarding these terms, please contact us at: <br class="sm:hidden" /><a href="tel:5555555555" class="text-orange hover:text-navy transition-colors inline-flex items-center sm:ml-2 border-b-4 border-orange hover:border-navy mt-2 sm:mt-0">(555) 555-5555</a></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer id="global-footer" class="bg-navy-dark text-gray-400 border-t border-gray-800 py-16"></footer>
+
+  <script>
+    document.getElementById('global-top-bar').innerHTML = window.globalComponents.topBar;
+    document.getElementById('global-header').innerHTML = window.globalComponents.header;
+    document.getElementById('global-footer').innerHTML = window.globalComponents.footer;
+  </script>
+  <script src="../js/main.js" defer></script>
+</body>
+</html>

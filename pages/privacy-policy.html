@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+  <title>Privacy Policy | Huntington Park Spider Control</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { navy: { DEFAULT: '#1A2E44', dark: '#0F1D2F' }, orange: { DEFAULT: '#E8600A', dark: '#C74F00' } }, fontFamily: { heading: ['Roboto Slab', 'serif'], body: ['Inter', 'sans-serif'] } } } }
+  </script>
+  <style> .font-heading { font-family: 'Roboto Slab', serif; } .font-body { font-family: 'Inter', sans-serif; } </style>
+  <script src="../js/components.js"></script>
+</head>
+<body class="font-body bg-white text-gray-700">
+  <div id="global-top-bar"></div>
+  <header id="global-header" class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm"></header>
+
+  <section class="bg-navy relative py-20 sm:py-28 overflow-hidden border-b-8 border-orange">
+    <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 24px 24px;"></div>
+    <div class="absolute top-0 right-0 w-1/2 h-full bg-navy-light transform skew-x-[15deg] origin-top-right -z-10"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight tracking-tight uppercase">PRIVACY POLICY</h1>
+      <div class="h-2 w-24 bg-orange mt-6 mb-6"></div>
+      <p class="text-base sm:text-lg text-gray-300 max-w-3xl leading-relaxed font-medium">
+        Last updated: January 2026
+      </p>
+    </div>
+  </section>
+
+  <section class="py-20 sm:py-28 bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="border-4 border-navy p-8 sm:p-12 space-y-12 text-navy-dark text-base font-medium leading-relaxed bg-gray-50 relative rounded-sm">
+        
+        <p>This Privacy Policy describes how Huntington Park Spider Control ("we", "us", or "our") collects, uses, and shares your personal information when you use our website.</p>
+
+        <div class="space-y-4 relative">
+          <div class="absolute -left-4 top-1 h-6 w-1 bg-orange hidden sm:block"></div>
+          <h2 class="font-heading text-2xl font-black text-navy uppercase tracking-tight">1. Information We Collect</h2>
+          <p>When you contact us for a quote or service, we may collect personal information such as your name, phone number, email address, and physical address. We also collect basic usage data through cookies to improve our website experience.</p>
+        </div>
+
+        <div class="space-y-4 relative">
+          <div class="absolute -left-4 top-1 h-6 w-1 bg-orange hidden sm:block"></div>
+          <h2 class="font-heading text-2xl font-black text-navy uppercase tracking-tight">2. How We Use Your Information</h2>
+          <p>We use the information we collect to connect you with local pest control professionals, communicate with you regarding your service requests, and improve our services. Your contact information is essential for dispatching technicians to your property.</p>
+        </div>
+
+        <div class="space-y-4 relative">
+          <div class="absolute -left-4 top-1 h-6 w-1 bg-orange hidden sm:block"></div>
+          <h2 class="font-heading text-2xl font-black text-navy uppercase tracking-tight">3. Sharing of Information</h2>
+          <p>We share your information with our network of certified local pest control technicians to fulfill your service requests. We do not sell your personal data to third parties for unrelated marketing purposes.</p>
+        </div>
+
+        <div class="space-y-4 relative">
+          <div class="absolute -left-4 top-1 h-6 w-1 bg-orange hidden sm:block"></div>
+          <h2 class="font-heading text-2xl font-black text-navy uppercase tracking-tight">4. Your Rights</h2>
+          <p>Depending on your location, such as California, you may have specific rights regarding your personal data under laws like the CCPA. You have the right to request access to, deletion of, or opt-out of the sale of your personal information.</p>
+        </div>
+
+        <div class="pt-8 border-t-4 border-navy">
+          <p class="font-bold text-lg text-navy uppercase tracking-tight leading-relaxed">To exercise your privacy rights or ask questions, please contact us at: <br class="sm:hidden" /><a href="tel:5555555555" class="text-orange hover:text-navy transition-colors inline-flex items-center sm:ml-2 border-b-4 border-orange hover:border-navy mt-2 sm:mt-0">(555) 555-5555</a></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer id="global-footer" class="bg-navy-dark text-gray-400 border-t border-gray-800 py-16"></footer>
+
+  <script>
+    document.getElementById('global-top-bar').innerHTML = window.globalComponents.topBar;
+    document.getElementById('global-header').innerHTML = window.globalComponents.header;
+    document.getElementById('global-footer').innerHTML = window.globalComponents.footer;
+  </script>
+  <script src="../js/main.js" defer></script>
+</body>
+</html>
