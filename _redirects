@@ -1,23 +1,26 @@
 # Rewrite clean URLs to their corresponding HTML files in pages directory
-/about                 /pages/about.html               200
-/contact               /pages/contact.html             200
-/residential-control   /pages/residential-control.html 200
-/commercial-control    /pages/commercial-control.html  200
-/privacy-policy        /pages/privacy-policy.html      200
-/terms-of-service      /pages/terms-of-service.html    200
+/about                        /pages/about.html                       200
+/contact                      /pages/contact.html                     200
+/residential-control          /pages/residential-control.html         200
+/commercial-control           /pages/commercial-control.html          200
+/privacy-policy               /pages/privacy-policy.html              200
+/terms-of-service             /pages/terms-of-service.html            200
+/black-widow-removal          /pages/black-widow-removal.html         200
 
 # Redirect legacy/raw HTML paths to clean URLs
-/index.html                     /                    301
-/about.html                     /about               301
-/contact.html                   /contact             301
-/residential-control.html       /residential-control 301
-/commercial-control.html        /commercial-control  301
-/privacy-policy.html            /privacy-policy      301
-/terms-of-service.html          /terms-of-service    301
+/index.html                     /                             301
+/about.html                     /about                        301
+/contact.html                   /contact                      301
+/residential-control.html       /residential-control          301
+/commercial-control.html        /commercial-control           301
+/privacy-policy.html            /privacy-policy               301
+/terms-of-service.html          /terms-of-service             301
+/black-widow-removal.html       /black-widow-removal          301
 
-/pages/about.html               /about               301
-/pages/contact.html             /contact             301
-/pages/residential-control.html /residential-control 301
-/pages/commercial-control.html  /commercial-control  301
-/pages/privacy-policy.html      /privacy-policy      301
-/pages/terms-of-service.html    /terms-of-service    301
+/pages/about.html                 /about                      301
+/pages/contact.html               /contact                    301
+/pages/residential-control.html   /residential-control        301
+/pages/commercial-control.html    /commercial-control         301
+/pages/privacy-policy.html        /privacy-policy             301
+/pages/terms-of-service.html      /terms-of-service           301
+/pages/black-widow-removal.html       /black-widow-removal          301

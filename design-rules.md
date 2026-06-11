@@ -96,3 +96,39 @@ This file contains the strict guidelines, coding practices, and content standard
 ### Rule 18: Always Use Clean Slugs/URLs
 * **Strict Guideline**: All internal links across the website must use clean, extensionless slugs (e.g., /about, /residential-control) instead of direct file paths (like /pages/about.html or /about.html).
 * **Layout Rule**: Rely on the _redirects configuration to map clean root-level slugs to their actual file locations in the repository. Never expose .html extensions or structural directories (like pages/) in the href attributes.
+
+### Rule 19: Semantic Text Case and Ctrl+F Findability
+* **Strict Guideline**: Text within headings (H1, H2, etc.) or any body content must always be written in standard Title Case or Sentence case in the raw HTML. **Never hardcode ALL CAPS text in the HTML source**.
+* **Layout Rule**: If a design requires capitalized headings, use the CSS class `uppercase` (Tailwind) to achieve the visual effect. This ensures accessibility tools (Screen Readers) pronounce words correctly instead of spelling them out.
+* **Avoid Line Breaks in Keywords**: Never insert `<br>` or `<br/>` tags in the middle of important SEO keyword phrases (e.g., inside an H1). Doing so breaks the continuous string, preventing users from finding the exact phrase using the browser's `Ctrl+F` search. Use CSS properties like `max-width`, `padding`, or `word-break` to control line wrapping organically.
+
+### Rule 20: Compact Section Padding for Single-Viewport Viewing
+* **Strict Guideline**: Every content section on the website must be designed to fit within a single viewport height whenever possible. Users should not need to scroll to see the full content of a standard section.
+* **Layout Rule**:
+  * **Hero Sections**: Use `py-12 sm:py-16 lg:py-20` (not `py-24 sm:py-32 lg:py-40`).
+  * **Regular Content Sections**: Use `py-10 sm:py-14` (not `py-20 sm:py-28`).
+  * **CTA Sections**: Use `py-8 sm:py-10` (not `py-12 sm:py-16`).
+  * **Section Heading Margins**: Use `mb-10` (not `mb-16`).
+* **Reasoning**: Tight, modern spacing creates a professional feel and improves UX by allowing users to consume each section without scrolling.
+
+### Rule 21: Standard Homepage Section Hierarchy
+* **Strict Guideline**: Every local service homepage must strictly follow the established 17-section hierarchy in exact order. Sections must not be rearranged or removed.
+* **Layout Rule**: The strict ordered hierarchy is as follows:
+  1. Header Info (Top Bar)
+  2. Header (Navbar)
+  3. Hero Section
+  4. USP Banner (Thin trust banner: Licensed, Targeted, Safe, etc.)
+  5. About Us (Why [City] Properties Experience [Pest/Problem] Activity)
+  6. Signs You May Need Professional [Service]
+  7. Services (Professional [Service] Overview)
+  8. Why Choose Us
+  9. Our [Service] Process
+  10. Emergency [Service] / Removal
+  11. Common [Pest/Problem] Types
+  12. Areas Where [Pest/Problem] Hides
+  13. Guides / Prevention Section
+  14. Fun Facts
+  15. FAQ (Accordion)
+  16. Helpline CTA
+  17. Footer
+* **Content Constraint**: The Fun Facts section must only contain factual, verifiable biology/industry facts (e.g., number of species, lifespan) and must **never** contain unverified or false business claims (e.g., "instant reply", "24/7", etc.).
