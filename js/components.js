@@ -163,20 +163,11 @@ window.globalComponents = {
   </div>
 </div>
 
-<!-- Mobile Sticky Phone Widget -->
-<div class="fixed bottom-4 inset-x-4 z-[90] md:hidden">
-  <div class="bg-navy rounded-xl shadow-[0_8px_30px_rgb(0,0,0,0.4)] p-3.5 flex items-center justify-between border border-gray-700">
-    <div class="flex flex-col pl-1">
-      <span class="text-orange font-bold text-[11px] tracking-wider mb-0.5">SPIDER EMERGENCY?</span>
-      <span class="text-white font-semibold text-[15px] leading-tight">Technicians standing by</span>
-    </div>
-    <a href="tel:5555555555" class="bg-orange hover:bg-orange-dark text-white font-bold py-2.5 px-4 rounded-lg flex items-center shadow-lg active:scale-95 transition-transform text-sm">
-      <svg class="h-4 w-4 mr-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1.3 1.3 0 01-.321 1.093l-1.305 1.305a11.934 11.934 0 005.184 5.184l1.305-1.305a1.3 1.3 0 011.093-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
-      </svg>
-      Call Now
-    </a>
-  </div>
-</div>
+<!-- Mobile Sticky Phone FAB -->
+<a id="mobile-floating-cta" href="tel:5555555555" class="fixed bottom-6 right-6 z-[90] md:hidden flex items-center justify-center w-14 h-14 bg-orange hover:bg-orange-dark text-white rounded-full shadow-[0_8px_20px_rgb(232,96,10,0.5)] border-2 border-white ring-4 ring-white/20 transform translate-y-24 transition-all duration-500 active:scale-95">
+  <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1.3 1.3 0 01-.321 1.093l-1.305 1.305a11.934 11.934 0 005.184 5.184l1.305-1.305a1.3 1.3 0 011.093-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+  </svg>
+</a>
   `
 };
