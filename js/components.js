@@ -2,9 +2,9 @@ window.globalComponents = {
   topBar: `
 <div class="bg-navy-dark text-white text-xs py-2 px-4 border-b border-gray-800">
   <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center space-y-1.5 sm:space-y-0">
-    <div class="flex items-center space-x-2">
-      <span class="inline-block h-2 w-2 rounded-full bg-green-accent animate-pulse"></span>
-      <span class="text-gray-300 font-semibold uppercase tracking-wider text-[11px]">Active Extermination Dispatch &bull; Huntington Park, CA 90255</span>
+    <div class="w-full sm:w-auto text-center sm:text-left mb-1.5 sm:mb-0">
+      <span class="inline-block h-2 w-2 rounded-full bg-green-accent animate-pulse mr-1.5 align-baseline"></span>
+      <span class="text-gray-300 font-semibold uppercase tracking-wider text-[11px] leading-relaxed">Active Extermination Dispatch &bull; Huntington Park, CA 90255</span>
     </div>
     <div class="flex items-center">
       <a href="tel:5555555555" class="inline-flex items-center text-white hover:text-orange font-semibold tracking-wide transition-colors text-sm sm:text-base">
