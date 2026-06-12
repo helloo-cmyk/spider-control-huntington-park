@@ -109,7 +109,7 @@ window.globalComponents = {
   `,
 
   footer: `
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-28 md:pb-0">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-6 md:pb-0">
   <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
     <!-- Brand Info -->
     <div class="space-y-4">
@@ -122,7 +122,7 @@ window.globalComponents = {
         </svg>
       </div>
       <p class="text-xs leading-relaxed">
-        Reliable, rank-and-rent local resource connecting homeowners with certified spider control and pest management experts in Huntington Park, CA.
+        Providing professional spider control and pest management services for residential and commercial properties in Huntington Park, CA.
       </p>
     </div>
 
@@ -131,7 +131,8 @@ window.globalComponents = {
       <h4 class="text-white font-semibold text-sm mb-4">Our Services</h4>
       <ul class="space-y-2.5 text-xs">
         <li><a href="/residential-control" class="hover:text-orange transition-colors">Residential Control</a></li>
-        <li><a href="/commercial-control" class="hover:text-orange transition-colors">Commercial Spider Control</a></li>
+        <li><a href="/commercial-control" class="hover:text-orange transition-colors">Commercial Control</a></li>
+        <li><a href="/black-widow-removal" class="hover:text-orange transition-colors">Black Widow Removal</a></li>
       </ul>
     </div>
 
@@ -159,7 +160,7 @@ window.globalComponents = {
   </div>
 
   <div class="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 space-y-4 md:space-y-0">
-    <p>&copy; 2026 Huntington Park Spider Control. All rights reserved. Connecting you with certified local contractors.</p>
+    <p>&copy; 2026 Huntington Park Spider Control. All rights reserved.</p>
     <div class="space-x-4">
       <a href="/terms-of-service" class="hover:text-white transition-colors">Terms of Service</a>
       <a href="/privacy-policy" class="hover:text-white transition-colors">Privacy Policy</a>

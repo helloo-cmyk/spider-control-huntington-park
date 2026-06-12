@@ -2,4 +2,16 @@ User-agent: *
 Allow: /
 Disallow: /node_modules/
 
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://spider-control-huntington-park.netlify.app/sitemap.xml
